@@ -27,6 +27,21 @@ go.work.sum
 # env file
 .env
 
+# Generated API clients
+go-client/sdk/
+vscode-extension/src/api/
+
+# OpenAPI Generator
+.openapi-generator/
+.openapi-generator-ignore
+
+# Docker
+docker-compose.override.yml
+
 # Editor/IDE
 # .idea/
 # .vscode/
+
+
+## js / npm
+node_modules/
